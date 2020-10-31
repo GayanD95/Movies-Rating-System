@@ -1,0 +1,384 @@
+html
+{
+	height: 100%;
+}
+body.form_home
+{
+	background: url(bghome.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+body.form
+{
+	
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+/*home top*/
+.thali_home
+{
+	background-color:rgba(200, 0, 102, 0.81);
+	height:15.2%;
+	width:100%;
+	top:0px;
+	left:0px;
+	color:#f2f2f2;
+	font-size:70px;
+	text-align:center;
+	padding:5px;
+	position:absolute;
+	font-family:Forte;
+}
+/*form top*/
+.thali_form
+{
+	background-color:rgba(0, 172, 230, 0.81);
+	height:15.2%;
+	width:100%;
+	top:0px;
+	left:0px;
+	color:#f2f2f2;
+	font-size:70px;
+	text-align:center;
+	padding:5px;
+	position:absolute;
+	font-family:Forte;
+	
+}
+
+
+body.form_update
+{
+	background: url(bgup.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.thali_update	
+{
+	background-color:rgba(255, 117, 26, 0.87);
+	height:15.2%;
+	width:100%;
+	top:0px;
+	left:0px;
+	color:#f2f2f2;
+	font-size:70px;
+	text-align:center;
+	padding:5px;
+	position:absolute;
+	font-family:Forte;
+}
+
+
+.mathu
+{
+	color: #14d7f5;
+	font-size:33px;
+	text-align:center;
+}
+/*style for form*/
+.form
+{
+	width: 90%;
+    margin: 40px auto 50px;
+    background-color:rgba(96, 84, 85, 0.82);
+    padding: 55px 50px;
+}
+/*style for home*/
+.back
+{
+	width: 90%;
+    margin-top:150px;
+    background-color:rgba(80, 84, 85, 0.95);
+    padding: 55px 50px;
+}
+
+/*form elements*/
+	
+label.header {
+    font-size: 17px;
+    font-weight: 500;
+    color: #14d7f5;
+    text-align: justify;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+	float: left;
+    margin-bottom: 12px;
+	width:100%;
+	
+}
+	
+input#name, input#id, input#rating, input#year
+ {
+    border: none;
+    color: #fff;
+    text-align: justify;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: normal;
+    background-color:rgba(0, 0, 0, 0.38);
+    margin-bottom: 16px;
+	height:40px;
+	padding:0 15px;
+	width:92.2%;
+}
+
+select {
+	border: 0.2px solid #fff;
+    color: #fff;
+    text-align: justify;
+    outline: none;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: normal;
+    background-color: rgba(82, 56, 76, 0.15);
+	height:40px;
+	padding:0 15px;
+	width:80%;
+	background-color:rgba(0, 0, 0, 0.38) ;
+    color: #fff;
+}
+
+input#path
+{
+	visibility:hidden;
+	width:1px;
+}
+
+input#upload,input#reset
+{
+	background-color:#00ccff;
+	width:8.34%;
+	height:30px;
+	font-size:13px;
+	padding:3px;
+	color:#fff;
+	border:none;
+	float:left;
+	margin-left:5px;
+	
+}
+
+input#upload:hover,input#reset:hover,input#genre:hover
+{
+	background-color:#99ebff;
+}
+
+input#save
+{
+	background-color: #00ccff;
+    width:20%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+	letter-spacing:1px;
+    outline: none;
+    font-size:14px;
+    font-weight: normal;
+}
+
+input#save:hover
+{
+	background-color: #99ebff;
+	
+}
+
+
+/*home images*/
+#img_home
+{
+	width:330px;
+	height:600px;
+	border:2px solid #fff;
+	padding:5px;
+	margin-left:20px;
+	margin-top:20px
+}
+
+/*home title*/
+.top_home
+{
+	color : #ff99c2;
+	font-size:50px;
+	text-align: center;
+	text-transform:capitalize;
+	
+}
+
+ a
+{
+	text-decoration:none;
+	
+}
+
+.record
+{
+	color: #ff884d;
+	font-size: 60px;
+	text-align:center;
+	border:none;
+}
+
+input#uphome, input#formhome
+{
+	width:12%;
+	color:#fff;
+	height:35px;
+	float:right;
+	margin-top:10%;
+	right:100px;
+	font-size:20px;
+	border:none;
+	padding:3px;
+}
+
+input#formhome
+{
+	background-color:#00ccff;
+}
+
+input#formhome:hover
+{
+	background-color:#99ebff;
+}
+
+input#uphome
+{
+	background-color:#ff884d;
+	
+}
+
+input#uphome:hover
+{
+	background-color:#ffaa80;
+}
+
+#tooplate_menu {
+	float: right;
+	margin: 30px auto 0 5px;
+}
+
+#tooplate_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#tooplate_menu ul li {
+	padding: 0;
+	margin: 0;
+	display: inline;
+}
+
+#tooplate_menu ul li a {
+	float: left;
+	display: block;
+	width: 94px;
+	height: 28px;
+	padding: 1px 0;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+	border: none;
+	text-shadow: 1px 1px 1px #000
+}
+
+#tooplate_menu ul li a:hover, #tooplate_menu ul .current {
+	color: #fff;
+	background: url(tooplate_menu_hover.png) no-repeat
+}
+
+
+input#genre
+{
+	background-color:#00ccff;
+	width:12%;
+	height:30px;
+	font-size:13px;
+	padding:3px;
+	color:#fff;
+	border:none;
+	float:right;
+	margin-left:1px;
+	
+}
+
+input#genre:hover
+{
+	background-color:#99ebff;
+}
+
+input#button,#up
+{
+	background-color:#00ccff;
+	
+	font-size:13px;
+	padding:5px;
+	color:#fff;
+	border:none;
+	
+	
+	
+}
+
+input#button:hover,#up:hover
+{
+	background-color:#99ebff;
+}
+
+table
+{
+	border-collapse: collapse;
+	border: 1px solid white;
+	color:#fff;
+	width:100%;
+	text-align:center;
+}
+
+th 
+{
+	height:60px;
+	font-size:1.2em;
+	border-bottom: 1px solid white;
+}
+tr:hover
+{
+	background-color:rgba(92, 138, 138,0.8);
+}
+td
+{
+	padding:7px;
+}
+
+#up
+{
+	background-color:#00ccff;
+	width:8.35%;
+	font-size:13px;
+	padding:5px;
+	color:#fff;
+	border:none;
+	
+	
+	
+}
+
+#up:hover
+{
+	background-color:#99ebff;
+}
